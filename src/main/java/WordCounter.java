@@ -38,7 +38,7 @@ public class WordCounter {
 
         // Prints out how many times each word occurs
         for (int i = 0; i < words.size(); i++) {
-            System.out.println(words.get(i) + " occured " + count.get(i) + " times");
+            System.out.println(words.get(i) + ": " + count.get(i));
 
         }
     }
